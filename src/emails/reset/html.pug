@@ -1,0 +1,5 @@
+h1 Hello #{firstname}!
+p Your password reset link has been generated. Please verify yourself by copy and pasting this link in a new tab #{host}/api/v1/reset-password/#{id}/verify?token=#{token} 
+h1 ACCOUNT VERIFICATION IS MUST BEFORE RESETTING PASSWORD
+p Please click on the link below to verify your account 
+a(href="http://#{host}/#{token}") Verify Account

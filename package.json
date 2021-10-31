@@ -1,0 +1,30 @@
+{
+  "name": "backend_training_task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "email-templates": "^8.0.8",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "fs-extra": "^10.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "multer": "^1.4.3",
+    "mysql2": "^2.3.2",
+    "passport": "^0.5.0",
+    "passport-facebook": "^3.0.0",
+    "pug": "^3.0.2",
+    "sequelize": "^6.7.0"
+  }
+}
