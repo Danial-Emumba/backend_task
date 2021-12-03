@@ -4,10 +4,3 @@ module.exports.get_token = async (token) =>{
     return await verification_tokens.findOne({where : {token}});
 }
 
-module.exports.demo_function =() =>{
-    console.log("Hello world")
-}
-
-module.exports.function_demo = () =>{
-    console.log("Hello world 2")
-}
